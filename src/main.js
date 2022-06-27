@@ -5,9 +5,10 @@ import ElementPlus from 'element-plus'
 import BaseHeader from './components/layouts/BaseHeader.vue'
 import BaseSide from './components/layouts/BaseSide.vue'
 
-// import 'element-plus/dist/index.css'
 import "~/styles/index.scss"
 import 'uno.css'
+
+import "element-plus/theme-chalk/src/message.scss"
 
 const app = createApp(App)
 app.use(ElementPlus)
