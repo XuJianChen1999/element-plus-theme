@@ -1,5 +1,13 @@
+<!--
+ * @Description: 
+ * @Author: xjc
+ * @Date: 2022-06-27 11:21:31
+ * @LastEditTime: 2022-06-27 11:37:28
+ * @LastEditors: xjc
+-->
 <script setup>
-import { toggleDark } from '~/composables';
+import {toggleDark} from '~/composables'
+import {MagicStick} from '@element-plus/icons-vue'
 </script>
 
 <template>
@@ -20,9 +28,9 @@ import { toggleDark } from '~/composables';
     <el-menu-item index="3" disabled>Info</el-menu-item>
     <el-menu-item index="4">Orders</el-menu-item>
     <el-menu-item h="full" @click="toggleDark()">
-      <button class="border-none w-full bg-transparent cursor-pointer" style="height: var(--ep-menu-item-height);">
-        <i inline-flex i="dark:ep-moon ep-sunny" />
-      </button>
+      <el-button :icon="MagicStick" class="border-none w-full bg-transparent cursor-pointer" style="height: var(--ep-menu-item-height);">
+        切换
+      </el-button>
     </el-menu-item>
   </el-menu>
 </template>
