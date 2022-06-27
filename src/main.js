@@ -8,7 +8,7 @@ import BaseSide from './components/layouts/BaseSide.vue'
 import "~/styles/index.scss"
 import 'uno.css'
 
-import "element-plus/theme-chalk/src/message.scss"
+import "element-plus/theme-chalk/src/index.scss"
 
 const app = createApp(App)
 app.use(ElementPlus)
