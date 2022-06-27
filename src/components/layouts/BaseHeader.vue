@@ -1,10 +1,3 @@
-<!--
- * @Description: 
- * @Author: xjc
- * @Date: 2022-06-27 11:21:31
- * @LastEditTime: 2022-06-27 11:37:28
- * @LastEditors: xjc
--->
 <script setup>
 import {toggleDark} from '~/composables'
 import {MagicStick} from '@element-plus/icons-vue'
